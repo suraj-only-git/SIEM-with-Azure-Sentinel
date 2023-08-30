@@ -39,7 +39,7 @@
 
      ![](../media/select-rg.png "Resource groups")
 
-1. Confirm you have a resource group **openai-<inject key="Deployment-id" enableCopy="false"/>** present as shown in the below screenshot. You need to use the **openai-<inject key="Deployment-id" enableCopy="false"/>** resource group throughout the entire process of lab execution.
+1. Confirm you have a resource group named **siem-sentinel** present as shown in the below screenshot. You need to use this resource group throughout the entire process of lab execution.
 
      ![](../media/rg.png "Resource groups")
    
