@@ -70,3 +70,39 @@ This task includes the creation of Log Analytics Workspace and initialization of
       >**Note**: The Microsoft Sentinel is deployed with a one month free trail activation period.
 
 ## Task 2: Onboard Azure resources and server to Azure Sentinel using data connectors
+
+This task includes the establishement of a connection between Windows and M365 data to Sentinel workspace.
+
+### Task 2.1 : Connect an Azure Windows Virtual Machine to Microsoft Sentinel
+
+ 1. In the Search bar of the Azure portal, type *Sentinel*, then select **Microsoft Sentinel**.
+
+ 2. Select the Microsoft Sentinel Workspace you created earlier.
+ 
+ 3. Within the Microsoft Sentinel page, in the left navigation pane, click on **Conent hub (1)** under the **Content management**. Search **(2)** for and select **(3)** **Windows Security Events**. Click on the **Install (4)** button in the right navigation pane that shows up. This results in installing Windows Security Events Solution.
+
+      ![Install Windows Security Events](../media/windows_security_events.png)
+
+       >**Note**: The installation may take upto a minute. Wait for the **Install Success** notification. You can now notice that that **Installed** count has increased to 1.
+       
+ 
+ 1. From the Data Connectors Tab, search for the **Windows Security Events via AMA** connector and select it from the list.
+
+ 1. Select the **Open connector page** on the connector information blade.
+
+ 1. In the Configuration section, select the **+Create data collection rule.**
+
+ 1. Enter **AZWIN01DCR** for Rule Name, then select Next: Resources.
+
+ 1. Select +Add resource(s).
+
+ 1. Expand **RG-AZWIN01**, then select AZWIN01.
+
+ 1. Select **Apply**.
+
+ 1. Select **Next: Collect**, then **Next: Review + create.**
+
+ 1. Select **Create.**
+
+ 1. Wait a minute and then select **Refresh** to see the new data collection rule listed.
+
