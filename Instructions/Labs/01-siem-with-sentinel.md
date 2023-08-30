@@ -68,3 +68,5 @@ This task includes the creation of Log Analytics Workspace and initialization of
 4. Navigate around the newly created Microsoft Sentinel workspace to become familiar with the user interface options.
 
       >**Note**: The Microsoft Sentinel is deployed with a one month free trail activation period.
+
+## Task 2: Onboard Azure resources and server to Azure Sentinel using data connectors
