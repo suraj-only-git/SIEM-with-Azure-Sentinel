@@ -33,7 +33,7 @@ This task includes the creation of Log Analytics Workspace and initialization of
    
       ![Search resource](../media/law.png)
    
-3. Within the Marketplace page, search for the **Log Analytics Workspace** resource card and click on **Create** >> **Log Analytics Workspace**.
+3. Within the Marketplace page, search for the **Log Analytics Workspace** resource card and click on **Create (1)** >> **Log Analytics Workspace (2)**.
 
       ![create law](../media/marketplace_law.png)
 
