@@ -151,6 +151,6 @@ This task includes the establishement of a connection between Windows and M365 d
 
    >**Note**: This lab is provided with required read/write access to the Sentinel workspace along with the tentant having Security Administrator permissions inorder to pre-handedly meet the prerequisites of successfully connecting data connectors.
 
-6. Upon receiving the *Success* notification (which can be viewed from the notifications panel) within the Azure portal, this implies that the Microsoft 365 data connector has been successfully connected with Microsoft Sentinel. This can also be validated by the change in the status to **Connected** as shown in the below screenshot:
+6. Upon receiving the *Success* notification (which can be viewed from the notifications panel) within the Azure portal, implies that the Microsoft 365 data connector has been successfully connected with Microsoft Sentinel. This can also be validated by the change in the status to **Connected** as shown in the below screenshot:
 
       ![m365-connected](../media/m365-connected.png)
