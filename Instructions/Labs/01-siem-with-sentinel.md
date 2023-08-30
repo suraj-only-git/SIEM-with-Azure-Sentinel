@@ -111,6 +111,8 @@ This task includes the establishement of a connection between Windows and M365 d
 
       ![select resource](../media/select_resource.png)
 
+      >**Note**: This lab is provided with a pre-created windows virtual machine (for the ease of the users) which can be added as a resource to connect with Microsoft Sentinel.
+
  9. Back on the **Create Data Collection Rule** page, select **Next: Collect >** and then **Next: Review + create**.
 
  10. After the successful validation run, click on **Create**.
@@ -120,3 +122,51 @@ This task includes the establishement of a connection between Windows and M365 d
 11. Going back to the **Microsoft Sentinel | Data connectors** page, notice that now the **Windows Security Events via AMA** data connector is successfully connected with Microsoft Sentinel.
 
       ![windows_security_events data connector connected](../media/windows_security_events-connected.png)
+
+### Task 2.2 : Connect M365 data to Sentinel using Data connectors
+
+1. In the Search bar of the Azure portal, type **Sentinel (1)**, then select **Microsoft Sentinel (2)**.
+
+      ![search sentinel](../media/search_sentinel.png)
+
+ 2. Select the Microsoft Sentinel Workspace you created earlier.
+ 
+ 3. Within the Microsoft Sentinel page, in the left navigation pane, click on **Conent hub (1)** under the **Content management** section. Search **(2)** for and select **(3)** **Microsoft 365**. Click on the **Install (4)** button in the right navigation pane that shows up thus, resulting in installation of the Microsoft 365 Solution.
+
+      ![Install Microsoft 365](../media/m365-install.png)
+
+      >**Note**: The installation may take upto a minute. Wait for the **Install Success** notification after which you can now notice that the **Installed** count has been increased to **2**.
+
+      ![Installed M365 solution](../media/m365-installed.png) 
+
+ 4. From the **Data Connectors (1)** tab, under the **Configuration** section in the left navigation pane of the Microsoft Sentinel page, select the **Microsoft 365 (2)** connector from the available list and click on **Open connector page (3)** from the right navigation that shows up.
+
+      >**Note**: You might have to refresh the Microsoft | Data connectors page inorder to view the Microsoft 365 connector.
+
+      ![M365 - Data connectors](../media/m365-connection.png)
+
+5. In the Configuration section of the **Microsoft 365** page, ensure to select all the three check boxes **(1)** analogous to **Exchange**, **SharePoint** and **Teams** respectively. Click on **Apply Changes (2)**.
+
+      ![Configure M365 connector](../media/configure-m365.png)
+
+   >**Note**: This lab is provided with required read/write access to the Sentinel workspace along with the tentant having Security Administrator permissions inorder to pre-handedly meet the prerequisites of successfully connecting data connectors.
+
+7. Upon receiving the *Success* notification (which can be view from the notifications panel) within the Azure portal, implies that the Microsoft 365 data connector has been successfully connected with Microsoft Sentinel. This can also be validated by the change in the status to **Connected** as shown in the below screenshot:
+
+      ![m365-connected](../media/m365-connected.png)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   
