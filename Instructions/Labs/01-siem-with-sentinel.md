@@ -30,9 +30,20 @@ This task includes the creation of Log Analytics Workspace and initialization of
       ![Create resource](../media/createrenew.png)
 
 2. In the search box, type **Log Analytics Workspace** and select the search result.
-3. Click on **Create**.
-4. Select **rg-defender** for the Resource group drop down.
-5. Enter *RG-Defender* and select **Ok**.
-6. For the Name, enter **uniquenameDefender**.
-7. Select **Review + Create**
-8. Once the workspace validation has passed, select **Create**. Wait for the new workspace to be provisioned, this may take a few minutes.
+   
+      ![Search resource](../media/law.png)
+   
+3. Within the Marketplace page, search for the **Log Analytics Workspace** resource card and click on **Create** >> **Log Analytics Workspace**.
+
+      ![create law](../media/marketplace_law.png)
+
+4. On the **Basics** tab of the **Create Log Analytics workspace**, enter the following details and select **Review + Create (5)**
+   
+      -  **Subscription (1):** Select the default assigned subsciption
+      -  **Resource group (2):** Select **siem-sentinel** resource group from the drop down list
+      -  **Name (3):**  Enter sentinel-law-<inject key="Deployment-id" enableCopy="false"></inject>
+      -  **Region (4):** Select **East US**
+
+      ![create law](../media/create_law.png)
+
+5. Once the workspace validation has passed, select **Create**. Wait for the new workspace to be provisioned, this may take a few minutes.
