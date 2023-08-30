@@ -41,7 +41,7 @@ This task includes the creation of Log Analytics Workspace and initialization of
    
       -  **Subscription (1):** Select the default assigned subsciption
       -  **Resource group (2):** Select **siem-sentinel** resource group from the drop down list
-      -  **Name (3):**  Enter sentinel-law-<inject key="Deployment-id" enableCopy="false"></inject>
+      -  **Name (3):**  Enter **sentinel-law-<inject key="Deployment-id" enableCopy="false"></inject>**
       -  **Region (4):** Select **East US**
 
       ![create law](../media/create_law.png)
