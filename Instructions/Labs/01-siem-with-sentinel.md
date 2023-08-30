@@ -50,7 +50,7 @@ This task includes the creation of Log Analytics Workspace and initialization of
 
 ### Task 1.2 : Initialize the Microsoft Sentinel Workspace
 
-1. In the Search bar of the Azure portal, type *Sentinel* and select **Microsoft Sentinel** from the list of search results.
+1. In the Search bar of the Azure portal, type **Sentinel** (1) and select **Microsoft Sentinel** (2) from the list of search results.
 
       ![search sentinel](../media/search_sentinel.png)
 
@@ -72,7 +72,9 @@ This task includes the establishement of a connection between Windows and M365 d
 
 ### Task 2.1 : Connect an Azure Windows Virtual Machine to Microsoft Sentinel
 
- 1. In the Search bar of the Azure portal, type *Sentinel*, then select **Microsoft Sentinel**.
+ 1. In the Search bar of the Azure portal, type **Sentinel** (1), then select **Microsoft Sentinel** (2).
+
+      ![search sentinel](../media/search_sentinel.png)
 
  2. Select the Microsoft Sentinel Workspace you created earlier.
  
@@ -84,7 +86,7 @@ This task includes the establishement of a connection between Windows and M365 d
 
       ![Installed Windows Security Events](../media/windows_security_events-installed.png)
        
- 4. From the **Data Connectors (1)** tab, under the **Configuration** section in the left navigation pane of the Microsoft Sentinel page, select the **Windows Security Events via AMA (2)** connector from the available list and click on **Open connector page (3)** from the right navigation that shows up.
+ 4. From the **Data Connectors** (1) tab, under the **Configuration** section in the left navigation pane of the Microsoft Sentinel page, select the **Windows Security Events via AMA** (2) connector from the available list and click on **Open connector page** (3) from the right navigation that shows up.
 
       ![Windows Security Events - Data connectors](../media/windows_security_events-connection.png)
 
@@ -96,8 +98,8 @@ This task includes the establishement of a connection between Windows and M365 d
 
       -  **Rule Name**: **windows-security-events-dcr** - (1)
       -  **Subscription:** Select the default assigned subscription - - (2)
-      -  **Resource group:** Select **siem-sentinel** resource group from the drop down list - - (3)
-      -  Select **Next: Resources** - - (4) 
+      -  **Resource group:** Select **siem-sentinel** resource group from the drop down list - (3)
+      -  Select **Next: Resources** - (4) 
 
       ![Create DCR for Windows Security events via AMA connector](../media/details_dcr.png)
 
@@ -105,7 +107,7 @@ This task includes the establishement of a connection between Windows and M365 d
 
       ![Add resources](../media/add_resources.png)
 
- 8. Expand the resource group **siem-sentinel (1)**,  select the windows virtual machine named **labvm-<inject key="Deployment-id" enableCopy="false"> (2)** and then click on **Apply (3)**.
+ 8. Expand the resource group **siem-sentinel** (1),  select the windows virtual machine named **labvm-<inject key="Deployment-id" enableCopy="false">** (2) and then click on **Apply** (3).
 
       ![select resource](../media/select_resource.png)
 
