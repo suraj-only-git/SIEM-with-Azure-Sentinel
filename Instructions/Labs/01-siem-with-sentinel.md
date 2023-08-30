@@ -47,6 +47,6 @@ This task includes the creation of Log Analytics Workspace and initialization of
       ![create law](../media/create_law.png)
 
 5. Once the workspace validation has passed, select **Create**. Wait for the new workspace to be provisioned, this may take a few minutes.
-6. Soon after successful deployment of the **Microsoft.LogAnalyticsOMS**, on the overview page, click on **Go to resource**.
+6. Soon after successful deployment of the **Microsoft.LogAnalyticsOMS**, on the overview page, click on **Go to resource** inorder to view the newly created Log Analytics Workspace.
 
       ![view law](../media/gotoresource_law.png)
