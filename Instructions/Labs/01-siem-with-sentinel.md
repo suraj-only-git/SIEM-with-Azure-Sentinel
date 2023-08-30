@@ -1,4 +1,4 @@
-# Exercise 1: Deploying Azure Sentinel and Onbaording Cloud Resources and Servers
+# Exercise 1: Deploying Azure Sentinel and Onboarding Cloud Resources and Servers
 
 ### Duration: 30 minutes
 
