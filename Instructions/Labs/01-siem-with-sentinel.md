@@ -86,7 +86,7 @@ This task includes the establishement of a connection between Windows and M365 d
 
       ![Installed Windows Security Events](../media/windows_security_events-installed.png)
        
- 4. From the **Data Connectors (1)** tab, under the **Configuration** section in the left navigation pane of the Microsoft Sentinel page, select the **Windows Security Events via AMA (2)** connector from the available list and click on **Open connector page (3)** from the right navigation that shows up.
+ 4. From the **Data Connectors (1)** tab, under the **Configuration** section in the left navigation pane of the Microsoft Sentinel page, select the **Windows Security Events via AMA (2)** connector from the available list and click on **Open connector page (3)** from the right navigation pane that shows up.
 
       ![Windows Security Events - Data connectors](../media/windows_security_events-connection.png)
 
@@ -119,7 +119,7 @@ This task includes the establishement of a connection between Windows and M365 d
 
       >**Note**: Wait for the **Successfully installed extension** notification within the azure portal implying that the DCR has been created along with the AMA being installed succssfully. Select **Refresh** to see the new data collection rule listed.
 
-11. Going back to the **Microsoft Sentinel | Data connectors** page, notice that now the **Windows Security Events via AMA** data connector is successfully connected with Microsoft Sentinel.
+11. On the **Microsoft Sentinel | Data connectors** page, notice that now the **Windows Security Events via AMA** data connector is successfully connected with Microsoft Sentinel.
 
       ![windows_security_events data connector connected](../media/windows_security_events-connected.png)
 
