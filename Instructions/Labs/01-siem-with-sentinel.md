@@ -139,7 +139,7 @@ This task includes the establishement of a connection between Windows and M365 d
 
       ![Installed M365 solution](../media/m365-installed.png) 
 
- 4. From the **Data Connectors (1)** tab, under the **Configuration** section in the left navigation pane of the Microsoft Sentinel page, select the **Microsoft 365 (2)** connector from the available list and click on **Open connector page (3)** from the right navigation that shows up.
+ 4. From the **Data Connectors** tab, under the **Configuration** section in the left navigation pane of the Microsoft Sentinel page, select the **Microsoft 365 (1)** connector from the available list and click on **Open connector page 2)** from the right navigation that shows up.
 
       >**Note**: You might have to refresh the Microsoft | Data connectors page inorder to view the Microsoft 365 connector.
 
@@ -154,19 +154,3 @@ This task includes the establishement of a connection between Windows and M365 d
 7. Upon receiving the *Success* notification (which can be view from the notifications panel) within the Azure portal, implies that the Microsoft 365 data connector has been successfully connected with Microsoft Sentinel. This can also be validated by the change in the status to **Connected** as shown in the below screenshot:
 
       ![m365-connected](../media/m365-connected.png)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-   
