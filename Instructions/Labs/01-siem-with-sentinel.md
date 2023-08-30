@@ -99,7 +99,7 @@ This task includes the establishement of a connection between Windows and M365 d
       -  **Rule Name**: **windows-security-events-dcr** - (1)
       -  **Subscription:** Select the default assigned subscription - - (2)
       -  **Resource group:** Select **siem-sentinel** resource group from the drop down list - (3)
-      -  Select **Next: Resources** - (4) 
+      -  Select **Next: Resources >** - (4) 
 
       ![Create DCR for Windows Security events via AMA connector](../media/details_dcr.png)
 
