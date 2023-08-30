@@ -50,3 +50,21 @@ This task includes the creation of Log Analytics Workspace and initialization of
 6. Soon after successful deployment of the **Microsoft.LogAnalyticsOMS**, on the overview page, click on **Go to resource** inorder to view the newly created Log Analytics Workspace.
 
       ![view law](../media/gotoresource_law.png)
+
+### Task 1.2 : Initialize the Microsoft Sentinel Workspace
+
+1. In the Search bar of the Azure portal, type *Sentinel* and select **Microsoft Sentinel** from the list of search results.
+
+      ![search sentinel](../media/search_sentinel.png)
+
+2. Within the Microsoft Sentinel home page, click on **+ Create** to create and configure the Sentinel Workspace.
+
+      ![create sentinel](../media/create_sentinel.png)
+
+3. On the **Add Microsoft Sentinel to a workspace** page, select the existing workspace i.e, **sentinel-law-<inject key="Deployment-id" enableCopy="false"></inject> (1)** which was created in the previous task, then select **Add (2)**. This could take a few minutes.
+
+      ![add workspace](../media/add_workspace.png)
+
+4. Navigate around the newly created Microsoft Sentinel workspace to become familiar with the user interface options.
+
+      >**Note**: The Microsoft Sentinel is deployed with a one month free trail activation period.
