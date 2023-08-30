@@ -82,7 +82,7 @@ This task includes the establishement of a connection between Windows and M365 d
 
       ![Install Windows Security Events](../media/windows_security_events.png)
 
-      >**Note**: The installation may take upto a minute. Wait for the **Install Success** notification after which you can now notice the **Installed** count has increased to **1**.
+      >**Note**: The installation may take upto a minute. Wait for the **Install Success** notification, after which you can now notice the **Installed** count has increased to **1**.
 
       ![Installed Windows Security Events](../media/windows_security_events-installed.png)
        
