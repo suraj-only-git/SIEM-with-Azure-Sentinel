@@ -39,7 +39,7 @@ This task includes the creation of Log Analytics Workspace and initialization of
 
 4. On the **Basics** tab of the **Create Log Analytics workspace**, enter the following details and select **Review + Create (5)**
    
-      -  **Subscription (1):** Select the default assigned subsciption
+      -  **Subscription (1):** Select the default assigned subscription
       -  **Resource group (2):** Select **siem-sentinel** resource group from the drop down list
       -  **Name (3):**  Enter **sentinel-law-<inject key="Deployment-id" enableCopy="false"></inject>**
       -  **Region (4):** Select **East US**
