@@ -139,7 +139,7 @@ This task includes the establishement of a connection between Windows and M365 d
 
       ![Installed M365 solution](../media/m365-installed.png) 
 
- 4. From the **Data Connectors** tab, under the **Configuration** section in the left navigation pane of the Microsoft Sentinel page, select the **Microsoft 365 (1)** connector from the available list and click on **Open connector page 2)** from the right navigation that shows up.
+ 4. From the **Data Connectors** tab, under the **Configuration** section in the left navigation pane of the Microsoft Sentinel page, select the **Microsoft 365 (1)** connector from the available list and click on **Open connector page (2)** from the right navigation pane that shows up.
 
       >**Note**: You might have to refresh the Microsoft | Data connectors page inorder to view the Microsoft 365 connector.
 
