@@ -12,7 +12,7 @@ Contoso is looking to enhance its cybersecurity posture by implementing a robust
 
 This exercise includes the following tasks:
 
-* [Task 1: Enable Azure Sentinel](#task-1-provision-virtual-network)
+* [Task 1: Enable Azure Sentinel](#task-1-enable-azure-sentinel)
 * [Task 2: Onboard Azure resources and server to Azure Sentinel using Data connectors](#task-2-provision-subnets)
 
 ## Task 1: Enable Azure Sentinel
