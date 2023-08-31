@@ -89,12 +89,62 @@ There are two primary ways to create a hunt:
 
       ![create hunt 2](../media/create-hunt-2.png)
 
-3. Fill out the hunt name and optional fields. The description is a good place to verbalize your hypothesis. The Hypothesis pull down menu is where you set the status of your working hypothesis. 
+3. Fill out the hunt name and optional fields. The description is a good place to verbalize your hypothesis. The Hypothesis pull down menu is where you set the status of your working hypothesis. Select **Create** to get started.
 
       ![create hunt 3](../media/create-hunt-3.png)
 
-4. Select Create to get started.
-
 ### Task 2.1: View Hunt Details
 
-1. Select the Hunts (Preview) tab to view your new hunt.
+1. Select the **Hunts (Preview)** tab within the **Microsoft Sentinel | Hunting** page to view the newly created hunt. 
+
+   ![view hunt](../media/view-hunt.png)
+
+2. Select the hunt link by name to view the details such as **Hunt name**, **Description**, **Content**, **Last update time**, and **Creation time** inroder to take appropriate actions.
+
+3. Note the tabs for **Queries**, **Bookmarks**, and **Entities** to get more insights.
+
+   ![tab information](../media/tabs.png)
+
+## Task 3: Add a query to the hunt
+
+The **Queries tab** contains hunting queries specific to a hunt. These queries are clones of the originals, independent from all others in the workspace and can be updated or deleted without impacting your overall set of hunting queries or queries in other hunts.
+
+1. Navigate to the **Hunts (Preview)** tab within the **Microsoft Sentinel | Hunting** page and select the newly created hunt link by name which directs to the **Hunt** details page.
+
+2. Click on the **Query actions** dropdown (1) and select the **Add queries to hunt** (2) option. Within the **Add existing queries to hunt** page, select the required queries from the list the and then click on **Add** (3) to adjoin the selected queries to the current hunt. 
+
+    ![Add queries to a current hunt](../media/query-actions.png)
+
+3. Staying on the current **Hunt** page having a list of all the selected queries which were added to the hunt in the previous step, click on **Run all queries** or choose specific queries and select **Run selected queries** inorder to run the queries.
+
+   >**Note**: The **Cancel** button can be used to cancel query execution at any time.
+
+   ![Run all queries/select queries](../media/run_queries.png)
+
+### Task 3.1: Manage queries
+
+1. Staying on the current **Hunt** page having a list of all the selected queries which were added to the hunt in the previous task, right-click a query and select one of the following from the context menu: 
+
+   - Run
+   - Edit
+   - Clone
+   - Delete
+   - Create analytics rule
+  
+   ![Run all queries/select queries](../media/manage-queries.png)
+
+   >**Note**: These options behave just like the existing queries table in the Hunting page, except the actions only apply within this hunt.
+
+2. When you choose to create an analytics rule by selecting the **Create analytics rule** from the list of manage options, the name, description, and KQL query is prepopulated in the new rule creation. A link is created to view the new analytics rule found under Related analytics rules. 
+
+   ![Run all queries/select queries](../media/analytics-rule-from-query-tab.png)
+
+## Task 4: Add and view the bookmark
+
+
+
+
+
+
+
+
