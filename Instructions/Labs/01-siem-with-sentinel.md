@@ -135,7 +135,7 @@ This task includes the establishement of a connection between Windows and M365 d
 
       ![Install Microsoft 365](../media/m365-install.png)
 
-      >**Note**: The installation may take upto a minute. Wait for the **Install Success** notification after which you can now notice that the **Installed** count has been increased to **2**.
+      >**Note**: The installation may take upto a minute. Wait for the **Install Success** notification after which you can notice that the **Installed** count has been increased to **2**.
 
       ![Installed M365 solution](../media/m365-installed.png) 
 
