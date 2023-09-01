@@ -32,7 +32,7 @@ Microsoft Sentinel gives you flexibility as you zero in on the right set of hunt
 
 2. Select the Microsoft Sentinel Workspace you created earlier.
 
-3. Navigate to the Hunting page Queries tab by clicking on **Hunting** (1) under the **Threat management** section within the left navigation pane of the Microsoft Sentinel page and then select the **Queries** tab.
+3. Navigate to the Hunting page Queries tab by clicking on **Hunting** (1) under the **Threat management** section within the left navigation pane of the Microsoft Sentinel page and then select the **Queries** (2) tab.
 
       ![search sentinel](../media/hunting_page-queries_tab.png)
 
@@ -51,7 +51,7 @@ Content hub offers threat campaign and domain-based solutions to hunt for specif
 
       ![Run all queries](../media/log4J-apache_tomcat.png)
 
-2. Once installed, you can create a hunt directly from the solution by selecting the installed solution, then the **Actions** button from the right navigation pane that appears and finally clicking on **+ Create hunt (preview)**.
+2. Once installed, you can create a hunt directly from the solution by selecting the installed solution, then the **Actions** button (1) from the right navigation pane that appears and finally clicking on **+ Create hunt (preview)** (2).
 
       ![create hunt directly](../media/direct_hunt_creation.png)
 
@@ -67,7 +67,7 @@ The MITRE ATT&CK map helps you identify specific gaps in your detection coverage
 
 2. Unselect items (1) in the Active drop-down menu and select **Hunting queries** in the Simulated filter to see which techniques have hunting queries associated with them.
 
-      ![hypothesis detection gaps](../media/mitre_attack.png)
+      ![hypothesis detection gaps](../media/mitre_attack-2.png)
 
 3. Select the card with your desired technique.
 
@@ -81,11 +81,11 @@ The MITRE ATT&CK map helps you identify specific gaps in your detection coverage
 
 There are two primary ways to create a hunt:
 
-1. In the **Queries** tab of the **Microsoft Sentinel | Hunting** page, if you've started with a hypothesis where you've selected certain queries, select the **Hunt actions** drop down menu (1) and click on **+ Create hunt**. All the queries you selected are cloned for this new hunt.
+1. In the **Queries** tab of the **Microsoft Sentinel | Hunting** page, if you've started with a hypothesis where you've selected certain queries, select the **Hunt actions** drop down menu (1) and click on **+ Create hunt** (2). All the queries you selected are cloned for this new hunt.
 
       ![create hunt 1](../media/create-hunt.png)
 
-2. If you haven't decided on queries yet, navigate to the **Hunts (Preview)** tab (1) of the **Microsoft Sentinel | Hunting** page and then click on **+ New Hunt** (2) to create a blank hunt.
+2. If you haven't decided on queries yet, navigate to the **Hunts (Preview)** tab (1) within the **Microsoft Sentinel | Hunting** page and then click on **+ New Hunt** (2) to create a blank hunt.
 
       ![create hunt 2](../media/create-hunt-2.png)
 
@@ -145,17 +145,17 @@ When you find interesting results or important rows of data, add those results t
 
 ### Task 4.1: Add a bookmark
 
-1. Select a hunt query **(1)** from the Microsoft Sentinel **Hunt** page and click "View results" **(2)** in hunting query details pane to view the results in Log Analytics.
+1. Select a hunt query from the Microsoft Sentinel **Hunt** page and click **View results** in hunting query details pane to view the results in Log Analytics.
 
    ![view query results](../media/view-results.png)
 
-2. Use the check boxes to select one or more rows that contain the information you find interesting and click "Add bookmark". This preserves the data in the row for future reference. 
+2. Use the check boxes to select one or more rows that contain the information you find interesting and click **Add bookmark**. This preserves the data in the row for future reference. 
 
    ![add-bookmark](../media/add-bookmark.png)
 
 ### Task 4.2: View bookmarks
 
-1. Navigate to your hunt's bookmark tab to view your bookmarks with previously created details.
+1. Navigate to your hunt's **Bookmarks** tab to view your bookmarks with previously created details.
 
    ![view-bookmark](../media/view-bookmark.png)
 
@@ -196,7 +196,7 @@ There are two choices for incident creation while hunting.
 
 ### Option 2: Use the Hunts Action 
 
-1. Within the **Hunt** page, select the **Actions** menu and then click on **Create incident**.
+1. Within the **Hunt** page, select the **Actions** (1) menu and then click on **Create incident** (2).
 
    ![create-incident-2](../media/create-incident-2.png)
 
