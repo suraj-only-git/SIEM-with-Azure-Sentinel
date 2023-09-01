@@ -27,3 +27,21 @@ In the pursuit of a robust cybersecurity strategy, Contoso recognizes the import
 By implementing a robust log analytics and threat-hunting program, Contoso aims to proactively identify and mitigate threats, reduce the risk of security breaches, and maintain a strong security posture in an ever-evolving threat landscape. This approach will enable Contoso to stay ahead of potential threats and protect its digital assets effectively.
 
 ## Azure services and related products
+
+  - Log Analytics Workspace
+  - Microsoft Sentinel
+  - Threat Hunting
+
+## Solution Architecture
+
+## Lab Context
+
+In this Hands-on Lab, you will learn how to use Microsoft Sentinel to perform threat hunting by running queries to investigate your hypothesis. You will get Hands-on experience on Azure resources and how to use Microsoft Sentinel to detect the attacks.
+
+### Exercise 1: Deploying Azure Sentinel and Onboarding Cloud Resources and Servers
+
+In this exercise, you will deploy Log Analytics workspace and Microsoft Sentinel and also establish a connection between Windows and M365 data connectors to the Sentinel workspace.
+
+###  Exercise 2: Conducting log analytics and Threat Hunting
+
+In this exercise, you will define a Hypothesis in Microsoft Sentinel and will create Hunts to detect the Treats.
