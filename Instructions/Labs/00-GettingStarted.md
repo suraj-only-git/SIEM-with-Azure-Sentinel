@@ -41,7 +41,7 @@
 
 1. Confirm you have a resource group named **Microsoft-Sentinel** present as shown in the below screenshot. You need to use this resource group throughout the entire process of lab execution.
 
-     ![](..media/sentinelrg.png "Resource groups")
+     ![](../media/sentinelrg.png "Resource groups")
    
 1. Use **Next** button from lower right corner to move on to the next page.
 
