@@ -141,10 +141,71 @@ The **Queries tab** contains hunting queries specific to a hunt. These queries a
 
 ## Task 4: Add and view the bookmark
 
+When you find interesting results or important rows of data, add those results to the hunt by creating a bookmark. For more infromation, refer to [Use hunting bookmarks for data investigations](https://learn.microsoft.com/en-us/azure/sentinel/bookmarks).
 
+### Task 4.1: Add a bookmark
 
+1. Select a hunt query **(1)** from the Microsoft Sentinel **Hunt** page and click "View results" **(2)** in hunting query details pane to view the results in Log Analytics.
 
+   ![view query results](../media/view-results.png)
 
+2. Use the check boxes to select one or more rows that contain the information you find interesting and click "Add bookmark". This preserves the data in the row for future reference. 
 
+   ![add-bookmark](../media/add-bookmark.png)
 
+### Task 4.2: View bookmarks
 
+1. Navigate to your hunt's bookmark tab to view your bookmarks with previously created details.
+
+   ![view-bookmark](../media/view-bookmark.png)
+
+2. Select a desired bookmark and perform the following action:
+   - Select entity links to view the corresponding UEBA entity page.
+   - View raw results, tags, and notes.
+   - Select **View source query** to see the source query in Log Analytics.
+   - Select **View bookmark logs** to see the bookmark contents in the Log Analytics hunting bookmark table.
+   - Select **Investigate** button to view the bookmark and related entities in the investigation graph.
+   - Select the **Edit** button to update the tags, MITRE tactics and techniques, and notes.
+
+## Task 5: Interact with entities
+
+1. Navigate to your hunt's **Entities** tab to view, search, and filter the entities contained in your hunt. This list is generated from the list of entities in the bookmarks. The Entities tab automatically resolves duplicated entries.
+
+   ![entities-1](../media/entities-1.png)
+
+2. Select entity names to visit the corresponding UEBA entity page.
+
+3. Right-click on the entity to take actions appropriate to the entity types, such as adding an IP address to TI or running an entity type specific playbook.
+
+   ![entities-2](../media/entities-2.png)
+
+## Task 6: Create incidents
+
+There are two choices for incident creation while hunting.
+
+### Option 1: Use bookmarks
+
+1. Navigate to your hunt's **Bookmarks** tab and select a bookmark or bookmarks.
+
+2. Click on the **Incident actions** button and then select **Create incident** or **Add to existing incident**
+
+   ![create-incident](../media/create-incident.png)
+
+   -  For **Create new incident**, follow the guided steps. The bookmarks tab is prepopulated with your selected bookmarks.
+   -  For **Add to existing incident**, select the incident and select the **Accept** button.
+
+### Option 2: Use the Hunts Action 
+
+1. Within the **Hunt** page, select the **Actions** menu and then click on **Create incident**.
+
+   ![create-incident-2](../media/create-incident-2.png)
+
+2. During the **Add bookmarks** step, use the **Add bookmark** action to choose bookmarks from the hunt to add to the incident. You're limited to bookmarks that haven't already been assigned to an incident.
+
+3. After the incident is created, it will be linked under the **Related incidents** list for that hunt.
+
+## Task 7: Track metrics
+
+Track tangible results from hunting activity using the metrics bar in the **Hunts** tab. Metrics show the number of validated hypotheses, new incidents created, and new analytic rules created. Use these results to set goals or celebrate milestones of your hunting program.
+
+   ![track-metrics](../media/track-metrics.png)
