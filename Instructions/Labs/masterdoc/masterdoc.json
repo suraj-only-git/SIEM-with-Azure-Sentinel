@@ -1,1 +1,21 @@
+[
+  {
+    "Name": "Microsoft Sentinel",
+    "Language": "English",
+    "Files": [
+      {
+        "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/SIEM-with-Azure-Sentinel/main/Instructions/Labs/00-GettingStarted.md",
+        "Order": 1
+      },
+      {
+        "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/SIEM-with-Azure-Sentinel/main/Instructions/Labs/01.md",
+        "Order": 2
+      },
+      {
+        "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/SIEM-with-Azure-Sentinel/main/Instructions/Labs/02.md",
+        "Order": 3
+      }
+    ]
+  }
+]
 
