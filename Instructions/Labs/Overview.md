@@ -34,7 +34,7 @@ By implementing a robust log analytics and threat-hunting program, Contoso aims 
 
 ## Solution Architecture
 
-      ![sentinel-architecture](../media/sentinel-architecture.JPG)
+      ![sentinel-architecture](../media/sentinel-architecture.png)
 
 ## Lab Context
 
