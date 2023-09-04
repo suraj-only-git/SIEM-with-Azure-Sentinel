@@ -34,6 +34,8 @@ By implementing a robust log analytics and threat-hunting program, Contoso aims 
 
 ## Solution Architecture
 
+      ![sentinel-architecture](../media/sentinel-architecture.JPG)
+
 ## Lab Context
 
 In this Hands-on Lab, you will learn how to use Microsoft Sentinel to perform threat hunting by running queries to investigate your hypothesis. You will get Hands-on experience on Azure resources and how to use Microsoft Sentinel to detect the attacks.
