@@ -38,7 +38,7 @@ By implementing a robust log analytics and threat-hunting program, Contoso aims 
 
 ## Lab Context
 
-In this Hands-on Lab, you will learn how to use Microsoft Sentinel to perform threat hunting by running queries to investigate your hypothesis. You will get Hands-on experience on Azure resources and how to use Microsoft Sentinel to detect attacks.
+In this Hands-on Lab, you will learn how to use Microsoft Sentinel to perform threat hunting by running queries to investigate your hypothesis. You will get Hands-on experience with Azure resources and how to use Microsoft Sentinel to detect attacks.
 
 ### Exercise 1: Deploying Azure Sentinel and Onboarding Cloud Resources and Servers
 
@@ -46,4 +46,4 @@ In this exercise, you will deploy the Log Analytics workspace and Microsoft Sent
 
 ###  Exercise 2: Conducting log analytics and Threat Hunting
 
-In this exercise, you will define a Hypothesis in Microsoft Sentinel and will create Hunts to detect the Treats.
+In this exercise, you will define a hypothesis in Microsoft Sentinel and create hunts to detect the treats.
