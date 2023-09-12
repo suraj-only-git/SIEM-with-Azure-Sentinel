@@ -1,6 +1,6 @@
 # Getting Started with Lab
 
-1. Once the environment is provisioned, a virtual machine (JumpVM) and lab guide will get loaded in your browser. Use this virtual machine throughout the workshop to perform the lab. You can see the number on the lab guide bottom area to switch to different exercises of the lab guide.
+1. Once the environment is provisioned, a virtual machine (JumpVM) and lab guide will get loaded in your browser. Use this virtual machine throughout the workshop to perform the lab. You can see the number on the lab guide bottom area to switch to different exercises in the lab guide.
 
    ![](../media/getting-started.png "Lab Environment")
    
@@ -8,20 +8,20 @@
 
    ![split window](../media/getting-started.png "Lab Environment")
 
-1. You can also view the Lab Guide on a separate and full window by selecting the **Split Window** from the lower right corner.
+1. You can also view the lab guide in a separate and full window by selecting **Split Window** from the lower right corner.
 
    ![](../media/split-window.png "Lab Environment")
 
-1. Actions on virtual machines such as **Start**, **Stop** and **Restart** can be performed from the **Resources** tab.
+1. Actions on virtual machines such as **Start**, **Stop**, and **Restart** can be performed from the **Resources** tab.
 
    ![start and stop resources](../media/start-stop.png "Lab Environment")
 
 ## Login to Azure Portal
-1. In the JumpVM, click on Azure portal shortcut of Microsoft Edge browser which is created on desktop.
+1. In the JumpVM, click on the Azure portal shortcut of the Microsoft Edge browser, which is created on the desktop.
 
    ![](../media/azureportal_icon.png "Lab Environment")
    
-1. On **Sign into Microsoft Azure** tab you will see login screen, in that enter following email/username and then click on **Next**. 
+1. On the **Sign into Microsoft Azure** tab, you will see the login screen. Enter the following email/username and then click on **Next**.
    * Email/Username: <inject key="AzureAdUserEmail"></inject>
    
      ![](../media/image7.png "Enter Email")
@@ -43,7 +43,7 @@
 
 1. If a **Welcome to Microsoft Azure** popup window appears, click **Maybe Later** to skip the tour.
 
-1. Now you will see Azure Portal Dashboard, click on **Resource groups** from the Navigate panel to see the resource groups.
+1. Now you will see the Azure Portal Dashboard, Click on **Resource groups** from the Navigate panel to see the resource groups.
 
      ![](../media/select-rg.png "Resource groups")
 
@@ -51,6 +51,6 @@
 
      ![](../media/sentinelrg.png "Resource groups")
    
-1. Use **Next** button from lower right corner to move on to the next page.
+1. Use the **Next** button from the lower right corner to move on to the next page.
 
    ![](../media/next.png "Resource groups")
