@@ -6,7 +6,8 @@ This document will help you deploy the SIEM with Microsoft Sentinel envrionment 
 1. You will need following to get started:
 
    - **Azure subscription**: Create a free account [here](https://azure.microsoft.com/free/).
-   - **Azure Permission**: Make sure you have owner Access to the Subscription. 
+   - **Azure Permission**: Make sure you have owner Access to the Subscription.
+   -  **Global Administrator**: Make sure you have GA permission on Azure Entra ID.
 
 ## Prepare your Azure Lab Environment.
 
