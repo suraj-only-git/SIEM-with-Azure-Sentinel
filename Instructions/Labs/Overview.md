@@ -47,3 +47,5 @@ In this exercise, you will deploy the Log Analytics workspace and Microsoft Sent
 ###  Exercise 2: Conducting log analytics and Threat Hunting
 
 In this exercise, you will define a hypothesis in Microsoft Sentinel and create hunts to detect the treats.
+
+## Please click next to proceed to the next page.
